@@ -382,3 +382,46 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+.attendee-list {
+  margin-top: 22px;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+#attendeeList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+#attendeeList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  font-weight: 500;
+  color: #334155;
+}
+
+#attendeeList .tag {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#attendeeList .tag.water { background: #e8f7fc; color: #075985; }
+#attendeeList .tag.zero  { background: #ecfdf3; color: #166534; }
+#attendeeList .tag.power { background: #fff7ed; color: #9a3412; }
