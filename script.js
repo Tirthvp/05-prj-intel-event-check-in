@@ -1,7 +1,7 @@
 // --------------------
 // Intel Summit Check-In (LevelUp)
 // --------------------
-
+// First js completely done. 
 // DOM elements
 const form = document.getElementById("checkInForm");
 const nameInput = document.getElementById("attendeeName");
